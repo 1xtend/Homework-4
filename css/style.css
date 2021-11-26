@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: green;
+}
+
+.bg-box {
+    height: 755px;
+    width: 1520px;
+    background: url('../img/house.jpg') center / 500px no-repeat,
+                url('../img/lamp.png') center top / 60px repeat-x,
+                url('../img/grass.png') center bottom / 350px repeat-x,
+                url('../img/animal.png') left / 50px repeat-y,
+                url('../img/donut.png') right / 50px repeat-y;
+}
